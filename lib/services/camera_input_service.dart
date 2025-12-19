@@ -307,8 +307,9 @@ class CameraInputService extends ChangeNotifier {
   // --- Color Verification Logic ---
 
   bool _verifyFingerColor(CameraImage image, PoseLandmark finger) {
-    if (!_isEnrolled || _enrolledColor == null)
+    if (!_isEnrolled || _enrolledColor == null) {
       return true; // Pass if not enrolled? Or fail? Let's pass to allow testing without enrollment if desired, but for this task we want strictness.
+    }
     // Actually, if not enrolled, we might want to skip this check or return false.
     // Let's assume if not enrolled, we don't filter.
 

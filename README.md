@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # frontcam_defense
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# frontcam-defense
+>>>>>>> 3d64cd0c3a3e6f7755f528f8b7b5507ba5977b11

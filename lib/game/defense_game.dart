@@ -363,7 +363,7 @@ class Enemy extends RectangleComponent
 
 class EnemySpawner extends Component with HasGameRef<DefenseGame> {
   double _timer = 0;
-  double _interval = 2.0;
+  final double _interval = 2.0;
 
   @override
   void update(double dt) {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:flame/game.dart';
 import '../game/defense_game.dart';
 import '../game/upgrade_manager.dart';
 
