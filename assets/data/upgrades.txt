@@ -1,0 +1,6 @@
+1|Power Shot|Increases damage by 1|damage|1
+2|Rapid Fire|Increases fire rate by 10%|fireRate|-0.1
+3|Sniper Barrel|Increases range and speed|speed|100
+4|Double Tap|Chance to fire twice (Not Implemented - Damage +0.5)|damage|0.5
+5|Heavy Round|Damage +2 but Slower Fire Rate|damage|2
+6|Overclock|Fire Rate +20% but HP -1|fireRate|-0.2
